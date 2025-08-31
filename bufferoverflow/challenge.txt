@@ -1,0 +1,17 @@
+target -> controling the instruction pointer to `win` function
+
+
+tools -> {msf-pattern(create,offset),radare2,gdb)
+
+
+build -> ./build.sh
+
+
+steps -> {
+
+    1. create pattern
+    2. detect offset to instruction pointer
+    3. get win function's address
+    4. build the exploit
+
+}
