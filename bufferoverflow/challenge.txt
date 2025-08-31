@@ -10,7 +10,7 @@ build -> ./build.sh
 steps -> {
 
     1. create pattern
-    2. detect offset to instruction pointer
+    2. detect offset to saved instruction pointer
     3. get win function's address
     4. build the exploit
 
